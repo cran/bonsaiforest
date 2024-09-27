@@ -1,8 +1,8 @@
 Type: Package
 Package: bonsaiforest
 Title: Shrinkage Based Forest Plots
-Version: 0.1.0
-Date: 2024-06-12
+Version: 0.1.1
+Date: 2024-09-25
 Authors@R: c(
     person("Mar", "Vazquez Rabunal", , "mar.vazquez_rabunal@roche.com", role = "aut"),
     person("Daniel", "Sabanés Bové", , "daniel.sabanes_bove@roche.com", role = "aut"),
@@ -15,21 +15,21 @@ Description: Subgroup analyses are routinely performed in clinical trial
     subgroup analyses are multiplicity (even if only predefined subgroups
     are investigated) and the low sample sizes of subgroups which lead to
     highly variable estimates, see e.g. Yusuf et al (1991)
-    <doi:10.1001/jama.1991.03470010097038>.
-    This package implements subgroup estimates
-    based on Bayesian shrinkage priors, see Carvalho et al (2019)
-    <https://proceedings.mlr.press/v5/carvalho09a.html>. In addition, estimates 
-    based on penalized likelihood inference are available, based on Simon et al (2011) 
-    <doi:10.18637/jss.v039.i05>. The corresponding shrinkage based forest plots
-    address the aforementioned issues and can complement standard forest plots 
-    in practical clinical trial analyses.
+    <doi:10.1001/jama.1991.03470010097038>.  This package implements
+    subgroup estimates based on Bayesian shrinkage priors, see Carvalho et
+    al (2019) <https://proceedings.mlr.press/v5/carvalho09a.html>. In
+    addition, estimates based on penalized likelihood inference are
+    available, based on Simon et al (2011) <doi:10.18637/jss.v039.i05>.
+    The corresponding shrinkage based forest plots address the
+    aforementioned issues and can complement standard forest plots in
+    practical clinical trial analyses.
 License: Apache License 2.0
 URL: https://github.com/insightsengineering/bonsaiforest/
 BugReports: https://github.com/insightsengineering/bonsaiforest/issues
 Depends: R (>= 4.1)
-Imports: brms, broom, checkmate, dplyr, forcats, gbm, ggplot2, glmnet,
-        MASS, Rcpp, splines2, stats, survival, tibble, tidyr,
-        tidyselect, vdiffr
+Imports: brms (>= 2.22.0), broom, checkmate, dplyr, forcats, gbm,
+        ggplot2, glmnet, MASS, Rcpp, splines2, stats, survival, tibble,
+        tidyr, tidyselect, vdiffr
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 LinkingTo: Rcpp, RcppArmadillo
 VignetteBuilder: knitr
@@ -39,9 +39,9 @@ Encoding: UTF-8
 Language: en-US
 LazyData: true
 LazyDataCompression: xz
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2.9000
 NeedsCompilation: yes
-Packaged: 2024-06-14 18:46:45 UTC; sabanesd
+Packaged: 2024-09-26 11:53:59 UTC; gravesti
 Author: Mar Vazquez Rabunal [aut],
   Daniel Sabanés Bové [aut],
   Marcel Wolbers [aut],
@@ -49,4 +49,4 @@ Author: Mar Vazquez Rabunal [aut],
   F. Hoffmann-La Roche AG [cph, fnd]
 Maintainer: Isaac Gravestock <isaac.gravestock@roche.com>
 Repository: CRAN
-Date/Publication: 2024-06-17 16:00:02 UTC
+Date/Publication: 2024-09-27 12:30:02 UTC

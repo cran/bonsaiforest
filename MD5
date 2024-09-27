@@ -1,6 +1,6 @@
-6fbc21836091803966a2babb91cb2747 *DESCRIPTION
+1ad68c962ff73fc1ad49ab8403cdc38f *DESCRIPTION
 174704a4b66059de68f09301c0ee9a44 *NAMESPACE
-a01871ca93c122df11bf693815a188e4 *NEWS.md
+dd4d42f9c30f9d7b5802fcf34d8bb2d3 *NEWS.md
 18aaa3078310068184a7f06c918c40ec *R/RcppExports.R
 029f8c42534e8832e36dffb52af9cb45 *R/ahr_estimation.R
 5dfd1dd18ac0acf778a8c59b8123dcd4 *R/bonsaiforest-package.R
@@ -14,7 +14,7 @@ fbf268be2d6f8a284ba66105892098bb *R/elastic_net_fit_surv.R
 dc1494c1282bdbe56056e642c3626c1c *R/est_coef_bin1.R
 94314ea9c1f380c447ceedfb7eb9a473 *R/example_data.R
 65d73e6ba0a9e3c12f75f6ea2b89082b *R/generate_stacked_data.R
-480b6a21c0be7bef548c1f736cf7aa86 *R/horseshoe.R
+afbe497f4bd892bbbc36c2eb371f5ab2 *R/horseshoe.R
 cb29800d7d35eade0459aeb79ffa1af0 *R/horseshoe_fit_bin.R
 261395c7cddbc014121210f50e93d9ee *R/horseshoe_fit_surv.R
 9d61dce3d65fc9fd4646b73c6a754bea *R/lOR_estimation.R
@@ -32,8 +32,8 @@ de716fd0f9bef8db03c48b1149e51597 *R/naivepop_fit_surv.R
 4b1b44c256cdaa81ba69372e29b80198 *R/summary.R
 fc710006871e53b25357cc301066d5e1 *R/survival_curves.R
 2a966b9fb2d776c9b578911bd157cfc2 *R/trt_horseshoe.R
-f61db891eb928123aba4412ca322f508 *build/partial.rdb
-cbcb3dfd576a1b917ba0339f7b6a91aa *build/vignette.rds
+aa5e5a2cbfaea3d9b6cdbe378ac48cee *build/partial.rdb
+2c968e377788ad661b1b6b286f6d5c58 *build/vignette.rds
 20a2d82b4e54e0143daea8c233f08b6a *data/design_dummy1.rda
 1ea6471cbb5dc59cf3100acec17313fb *data/design_matrix1.rda
 1d1f10b16d0367b1e466bf887480e579 *data/elastic_net_fit_bin.rda
@@ -47,10 +47,10 @@ a5636a98dfc9d8ac3a5c3c9f2738653e *data/horseshoe_fit_surv.rda
 6803e19821942cbd2ddc2ad98b8c012e *data/naive_fit_surv.rda
 1e0af90f2b07c9a88412f21068cc2d80 *data/naivepop_fit_bin.rda
 1c0f26d2de7e860a3ddef9bbfeff086b *data/naivepop_fit_surv.rda
-f513ff2593340afedcf184850e2c0ef4 *inst/WORDLIST
+06118393e6f9e68093bc4019a9dd05bc *inst/WORDLIST
 563876bf199986e2379bc7de8c91b247 *inst/doc/introduction.R
 72436a07b6d10340d0956250db87f49c *inst/doc/introduction.Rmd
-c1803f50288a4067bc63489c99377f61 *inst/doc/introduction.html
+aba5705fb2ad345a621f3b1bf1dc18eb *inst/doc/introduction.html
 28101cb95b37cc9d7489bb82d2de22b7 *man/ahr_estimation.Rd
 ff34f61727f2a23825fe1793ea69f7f0 *man/ahr_from_km.Rd
 daa5a4f64e5b5a37891827b381a214a7 *man/bonsaiforest-package.Rd
@@ -112,7 +112,7 @@ ee84c9f1fe511fb280d69387f230803d *tests/testthat/_snaps/plot/forest-plot-elastic
 3a011ccb8b24df7a2573a92544d5d3ec *tests/testthat/test-compare.R
 fe5ac6c87012edcb9a8b81e2b0de3434 *tests/testthat/test-elastic_net.R
 a2231627ebeb91a2454b2d638649f780 *tests/testthat/test-generate_stacked_data.R
-763f45e9c9a0cd32f9bae43577b78cde *tests/testthat/test-horseshoe.R
+07df76cba5926f47aa4940d25af6f597 *tests/testthat/test-horseshoe.R
 4e922c4cabe28230fefc872750752e7b *tests/testthat/test-lOR_estimation.R
 649bb6a061a0372ee9e7c98b1e15ca8c *tests/testthat/test-naive.R
 78002e2c724bc472bbdbca3be7209051 *tests/testthat/test-naivepop.R
